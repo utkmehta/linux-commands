@@ -1,0 +1,27 @@
+# Files and folders
+ls			#list files and folders
+cat filename		#View the contents of a file on the terminal
+less filename		#View the contents of the file one page at a time
+mkdir foldername	#Make a new folder
+touch filename		#Make a new file
+cd folder/file		#Change directory
+cd ..			#Go back one step
+wc filename 		#Word-count
+wc -l filename		#Number of lines
+grep command filename	#Search for the command in the text file
+
+
+#emacs
+emacs filename		#Enter emacs mode
+Ctrl-X + Ctrl-C		#Exit emacs
+
+#WHAT IS MY IP
+35.2.224.196		#My ip-address
+
+#Miscallaneous keyboars shortcuts
+options + command + u		 #View source code in browser
+lnyx url  	    	      	 #View webpage on terminal
+wget url		      	 #Dowloads webpage in the form of html files for you
+curl url			 #All the html dumped to the terminal
+curl url > /dev/null	     	 #View stderr. The webpage is dumped to dev/null
+curl --verbose url > /dev/null	 #Details about the request response cycle
